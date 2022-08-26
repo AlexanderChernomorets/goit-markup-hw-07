@@ -2,7 +2,7 @@
     padding-top: 94px;
   }
   
-  .pec-subtitle {
+  .peculiarities__subtitle {
     color: var(--primary-text);
     font-weight: 700;
     font-size: 14px;
@@ -16,11 +16,11 @@
     
   }
   
-  .pec-list {
+  .peculiarities__list {
     display: flex;
     gap: 30px;
   }
-  .pec-pic {
+  .peculiarities__pic {
     width: 270px;
     height: 120px;
     background-color: rgba(245, 244, 250, 1);
@@ -31,7 +31,7 @@
     align-items: center;
   }
   
-  .pec-text {
+  .peculiarities__text {
     color: var(--secondary-text);
     font-size: 14px;
     line-height: 1.71;

@@ -35,6 +35,15 @@
     padding-top: 95px;
     padding-bottom: 95px;
   }
+  .team-title {
+    color: var(--primary-text);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  
   .team-card-list {
     display: flex;
     justify-content: center;

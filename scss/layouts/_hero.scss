@@ -18,7 +18,7 @@
     padding-right: auto;
   }
   
-  .hero-text {
+  .hero__text {
     color: var(--main-white-color);
     font-weight: 900;
     font-size: 44px;
@@ -33,7 +33,7 @@
     letter-spacing: 0.06em;
   }
   
-  .button {
+  .hero__button {
     background-color: var(--accent);
     color: var(--main-white-color);
     border: none;

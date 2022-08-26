@@ -12,17 +12,17 @@
     letter-spacing: 0.03em;
     text-decoration: none;
   }
-  .logo-had {
+  .logo {
     margin-right: 93px;
   }
   .accent-logo {
     color: var(--accent);
   }
   
-  .nav-list {
+  .navig-list {
     display: flex;
   }
-  .nav-li {
+  .navig-list__nav-li {
     margin-right: 50px;
     &:last-child {
       margin-right: 0;
@@ -30,7 +30,7 @@
     
   }
   
-  .nav-link {
+  .navig-list__nav-link {
     position: relative;
     color: var(--primary-text);
     font-weight: 500;
@@ -74,7 +74,7 @@
     align-items: center;
   }
   
-  .header-link {
+  .navig-list__header-link {
     display: flex;
     color: var(--secondary-text);
     align-items: center;

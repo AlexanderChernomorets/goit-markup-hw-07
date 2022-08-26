@@ -15,8 +15,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="css/main.min.css" />
+    
     <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <link rel="stylesheet" href="css/main.min.css" />
     <title>WebStudio</title>
   </head>
 
@@ -25,26 +26,27 @@
       <div class="container ">
         <div class="navig">
           <nav class="nav">
-            <a class="logo-had" href="./index.html"
+            <a class="logo" href="./index.html"
               ><span class="accent-logo">Web</span>Studio</a
             >
-            <ul class="nav-list">
-              <li class="nav-li">
-                <a class="nav-link active" href="./index.html">Студия</a>
+            <ul class="navig-list">
+              <li class="navig-list__nav-li">
+                <a class="navig-list__nav-link active" href="./index.html">Студия</a>
               </li>
-              <li class="nav-li">
-                <a class="nav-link" href="./portfolio.html">Портфолио</a>
+              <li class="navig-list__nav-li">
+                <a class="navig-list__nav-link" href="./portfolio.html">Портфолио</a>
               </li>
-              <li class="nav-li"><a class="nav-link" href="">Контакты</a></li>
+              <li class="navig-list__nav-li">
+                <a class="navig-list__nav-link" href="">Контакты</a></li>
             </ul>
           </nav>
-          <a class="header-link" href="mailto:info@devstudio.com">
+          <a class="navig-list__header-link" href="mailto:info@devstudio.com">
             <svg class="mail" width="16px" height="12px">
               <use href="./img/symbol-defs.svg#mail"></use>
             </svg>
             info@devstudio.com</a
           >
-          <a class="header-link" href="tel:+380961111111">
+          <a class="navig-list__header-link" href="tel:+380961111111">
             <svg class="phone" width="10px" height="16px">
               <use href="./img/symbol-defs.svg#phone"></use>
             </svg>
@@ -56,8 +58,8 @@
     <main class="main">
       <section class="hero section">
         <div class="container">
-          <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-          <button class="button" type="button" data-modal-open>
+          <h1 class="hero__text">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero__button" type="button" data-modal-open>
             Заказать услугу
           </button>
         </div>
@@ -68,51 +70,51 @@
             <h2 class="visually-hidden">
               Особенности нашей компании(заголовок не виден)
             </h2>
-            <ul class="pec-list">
+            <ul class="peculiarities__list">
               <li class="list">
-                <div class="pec-pic">
+                <div class="peculiarities__pic">
                   <svg class="antenna" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#antenna"></use>
                   </svg>
                 </div>
-                <h3 class="pec-subtitle">Внимание к деталям</h3>
-                <p class="pec-text">
+                <h3 class="peculiarities__subtitle">Внимание к деталям</h3>
+                <p class="peculiarities__text">
                   Идейные соображения, а также начало повседневной работы по
                   формированию позиции.
                 </p>
               </li>
               <li class="list">
-                <div class="pec-pic">
+                <div class="peculiarities__pic">
                   <svg class="clock" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#clock"></use>
                   </svg>
                 </div>
-                <h3 class="pec-subtitle">Пунктуальность</h3>
-                <p class="pec-text">
+                <h3 class="peculiarities__subtitle">Пунктуальность</h3>
+                <p class="peculiarities__text">
                   Задача организации, в особенности же рамки и место обучения
                   кадров влечет за собой.
                 </p>
               </li>
               <li class="list">
-                <div class="pec-pic">
+                <div class="peculiarities__pic">
                   <svg class="diagram" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#diagram"></use>
                   </svg>
                 </div>
-                <h3 class="pec-subtitle">Планирование</h3>
-                <p class="pec-text">
+                <h3 class="peculiarities__subtitle">Планирование</h3>
+                <p class="peculiarities__text">
                   Равным образом консультация с широким активом в значительной
                   степени обуславливает.
                 </p>
               </li>
               <li class="list">
-                <div class="pec-pic">
+                <div class="peculiarities__pic">
                   <svg class="astronaut" width="70px" height="70px">
                     <use href="./img/symbol-defs.svg#astronaut"></use>
                   </svg>
                 </div>
-                <h3 class="pec-subtitle">Современные технологии</h3>
-                <p class="pec-text">
+                <h3 class="peculiarities__subtitle">Современные технологии</h3>
+                <p class="peculiarities__text">
                   Значимость этих проблем настолько очевидна, что реализация
                   плановых заданий.
                 </p>
@@ -121,25 +123,25 @@
           </div>
         </div>
       </section>
-      <section class="section-box section">
+      <section class="box section">
         <div class="container">
-          <h2 class="box-title">Чем мы занимаемся</h2>
-          <ul class="box-list">
-            <li class="bx-li">
+          <h2 class="box__title">Чем мы занимаемся</h2>
+          <ul class="box__list">
+            <li class="box__item">
               <img
                 src="./img/box1.jpg"
                 alt="разрабатотка програмного обеспечения"
                 width="370"
               />
-              <p class="box-mess">Десктопные приложения</p>
+              <p class="box__message">Десктопные приложения</p>
             </li>
-            <li class="bx-li">
+            <li class="box__item">
               <img src="./img/box2.jpg" alt="оптимизация" width="370" />
-              <p class="box-mess">Мобильные приложения</p>
+              <p class="box__message">Мобильные приложения</p>
             </li>
-            <li class="bx-li">
+            <li class="box__item">
               <img src="./img/box3.jpg" alt="выбор дизайна" width="370" />
-              <p class="box-mess">Дизайнерские решения</p>
+              <p class="box__message">Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -321,45 +323,45 @@
       </section>
       <section class="clients section">
         <div class="container">
-          <h2 class="clients-title">Постоянные клиенты</h2>
-          <ul class="clients-list">
-            <li class="cli-li">
-              <a class="cli-link" href="">
+          <h2 class="clients__title">Постоянные клиенты</h2>
+          <ul class="clients__list">
+            <li>
+              <a class="clients__link" href="">
                 <svg class="clients" width="106px" height="60px">
                   <use href="./img/symbol-defs.svg#logo1"></use>
                 </svg>
               </a>
             </li>
-            <li class="cli-li">
-              <a class="cli-link" href="">
+            <li>
+              <a class="clients__link" href="">
                 <svg class="clients" width="106px" height="60px">
                   <use href="./img/symbol-defs.svg#logo2"></use>
                 </svg>
               </a>
             </li>
-            <li class="cli-li">
-              <a class="cli-link" href="">
+            <li>
+              <a class="clients__link" href="">
                 <svg class="clients" width="106px" height="60px">
                   <use href="./img/symbol-defs.svg#logo3"></use>
                 </svg>
               </a>
             </li>
-            <li class="cli-li">
-              <a class="cli-link" href="">
+            <li>
+              <a class="clients__link" href="">
                 <svg class="clients" width="106px" height="60px">
                   <use href="./img/symbol-defs.svg#logo4"></use>
                 </svg>
               </a>
             </li>
-            <li class="cli-li">
-              <a class="cli-link" href="">
+            <li>
+              <a class="clients__link" href="">
                 <svg class="clients" width="106px" height="60px">
                   <use href="./img/symbol-defs.svg#logo5"></use>
                 </svg>
               </a>
             </li>
-            <li class="cli-li">
-              <a class="cli-link" href="">
+            <li>
+              <a class="clients__link" href="">
                 <svg class="clients" width="106px" height="60px">
                   <use href="./img/symbol-defs.svg#logo6"></use>
                 </svg>

@@ -1,10 +1,10 @@
-.section-box {
+.box {
     padding-bottom: 94px;
     padding-top: 0;
   }
   
-  .team-title,
-  .box-title {
+  
+  .box__title {
     color: var(--primary-text);
     font-size: 36px;
     line-height: 1.16;
@@ -13,15 +13,15 @@
     margin-bottom: 50px;
   }
   
-  .box-list {
+  .box__list {
     display: flex;
     justify-content: space-between;
     margin: 0;
   }
-  .bx-li {
+  .box__item {
     position: relative;
   }
-  .box-mess {
+  .box__message {
     position: absolute;
     bottom: 0;
     left: 0;
