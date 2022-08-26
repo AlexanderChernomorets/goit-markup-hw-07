@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="css/styles.css" /> -->
+    <link rel="stylesheet" href="css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navig">
+          <nav class="nav">
+            <a class="logo" href="./index.html"
+              ><span class="accent-logo">Web</span>Studio</a
+            >
+            <ul class="nav-list">
+              <li class="nav-li">
+                <a class="nav-link" href="./index.html">Студия</a>
+              </li>
+              <li class="nav-li">
+                <a class="nav-link active" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="nav-li"><a class="nav-link" href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <a class="header-link" href="mailto:info@devstudio.com">
+            <svg class="mail" width="16px" height="12px">
+              <use href="./img/symbol-defs.svg#mail"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a class="header-link" href="tel:+380961111111">
+            <svg class="phone" width="10px" height="16px">
+              <use href="./img/symbol-defs.svg#phone"></use>
+            </svg>
+            +38 096 111 11 11</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="portfolio section">
+        <div class="container">
+          <h1 class="visually-hidden">
+            Примеры работ потрфолию(заголовок не виден)
+          </h1>
+          <ul class="port-list">
+            <li class="list-btn">
+              <button class="port-btn" type="button">Все</button>
+            </li>
+            <li class="list-btn">
+              <button class="port-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="list-btn">
+              <button class="port-btn" type="button">Приложения</button>
+            </li>
+            <li class="list-btn">
+              <button class="port-btn" type="button">Дизайн</button>
+            </li>
+            <li class="list-btn">
+              <button class="port-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="port-cont">
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <div class="port-action">
+                  <img
+                    class="card-img"
+                    src="./img/portfolio1.jpg"
+                    alt="Открытый сайт на ноутбуке"
+                    width="370"
+                  />
+                  <p class="port-card-par">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+
+                <div class="prt-card">
+                  <h3 class="port-title">Технокряк</h3>
+                  <p class="port-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <img
+                  src="./img/portfolio2.jpg"
+                  alt="Стефф Карри блокирует Девонта Грэма"
+                  width="370"
+                />
+                <div class="prt-card">
+                  <h3 class="port-title">Постер New Orlean vs Golden Star</h3>
+                  <p class="port-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <img
+                  src="./img/portfolio3.jpg"
+                  alt="Логотип ресторана на фоне рыбы"
+                  width="370"
+                />
+                <div class="prt-card">
+                  <h3 class="port-title">Ресторан Seafood</h3>
+                  <p class="port-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <img src="./img/portfolio4.jpg" alt="Наушники" width="370" />
+                <div class="prt-card">
+                  <h3 class="port-title">Проект Prime</h3>
+                  <p class="port-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <img
+                  src="./img/portfolio5.jpg"
+                  alt="Бклая и серая коробка"
+                  width="370"
+                />
+                <div class="prt-card">
+                  <h3 class="port-title">Проект Boxes</h3>
+                  <p class="port-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="">
+                <img
+                  src="./img/portfolio6.jpg"
+                  alt="Монитор с изображением страницы сайта"
+                  width="370"
+                />
+                <div class="prt-card">
+                  <h3 class="port-title">Inspiration has no Borders</h3>
+                  <p class="port-text">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <img
+                  src="./img/portfolio7.jpg"
+                  alt="Развернутая книга"
+                  width="370"
+                />
+                <div class="prt-card">
+                  <h3 class="port-title">Издание Limited Edition</h3>
+                  <p class="port-text">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <img
+                  src="./img/portfolio8.jpg"
+                  alt="Лейба с названием на веревочке"
+                  width="370"
+                />
+                <div class="prt-card">
+                  <h3 class="port-title">Проект LAB</h3>
+                  <p class="port-text">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="port-card">
+              <a class="port-link" href="#">
+                <img
+                  src="./img/portfolio9.jpg"
+                  alt="Ноутбук с изображением страницы сайта"
+                  width="370"
+                />
+                <div class="prt-card">
+                  <h3 class="port-title">Growing Business</h3>
+                  <p class="port-text">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container ftr">
+        <div class="ft-adrs">
+          <a class="logo-foot" href="./index.html"
+            ><span class="accent-logo">Web</span>Studio</a
+          >
+          <address class="adress">
+            <p class="foot-text">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="foot-link" href="mailto:info@example.com "
+              >info@example.com</a
+            >
+            <a class="foot-link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+        </div>
+
+        <div class="foot-social">
+          <h3 class="foot-social-tittle">Присоединяйтесь</h3>
+          <ul class="foot-card-list">
+            <li class="foot-c-li">
+              <a class="foot-c-link" href="">
+                <svg class="foot-soc">
+                  <use href="./img/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="foot-c-li">
+              <a class="foot-c-link" href="">
+                <svg class="foot-soc">
+                  <use href="./img/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="foot-c-li">
+              <a class="foot-c-link" href="">
+                <svg class="foot-soc">
+                  <use href="./img/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="foot-c-li">
+              <a class="foot-c-link" href="">
+                <svg class="foot-soc">
+                  <use href="./img/symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="foot-form">
+          <p class="foot-form-title">Подпишитесь на рассылку</p>
+          <input type="email" class="foot-input" placeholder="E-mail" />
+          <div class="for-send">
+            <button type="submit" class="foot-sbm">
+              <span class="f-sub-text">Подписаться</span>
+            </button>
+            <svg class="icon-plane" width="24" height="24">
+              <use href="./img/symbol-defs.svg#icon-send"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

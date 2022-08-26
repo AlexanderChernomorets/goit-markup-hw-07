@@ -1,0 +1,42 @@
+.peculiarities {
+    padding-top: 94px;
+  }
+  
+  .pec-subtitle {
+    color: var(--primary-text);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-right: 0px;
+    }
+    
+  }
+  
+  .pec-list {
+    display: flex;
+    gap: 30px;
+  }
+  .pec-pic {
+    width: 270px;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    margin-bottom: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pec-text {
+    color: var(--secondary-text);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    max-width: 270px;
+    padding-right: 29px;
+    height: 75px;
+  }
